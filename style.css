@@ -1,0 +1,46 @@
+body {
+  background: pink;
+  color: white;
+}
+
+.body-content {
+  display: flex;
+  justify-content: space-between; /* Distributes space evenly */
+  align-items: center; /* Aligns items vertically */
+}
+
+h1 {
+  font-weight: bold;
+}
+
+img {
+ width: 350px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  float: left; /*image will be on the right*/
+  margin-bottom: 20px;
+}
+
+.container{
+  float: clear;
+}
+
+
+h6{
+  float: right;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+p{
+  float: clear;
+}
+
+.heading{
+  float: auto;
+}
+
